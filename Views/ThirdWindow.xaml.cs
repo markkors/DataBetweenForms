@@ -30,5 +30,12 @@ namespace DataBetweenForms.Views
             ListBoxData.ItemsSource = lst;
             ListBoxData.DisplayMemberPath = "Name";
         }
+
+        public bool setDataTwee(List<Student> lst)
+        {
+            ListBoxData.ItemsSource = lst;
+            ListBoxData.DisplayMemberPath = "Name";
+            return false;
+        }
     }
 }

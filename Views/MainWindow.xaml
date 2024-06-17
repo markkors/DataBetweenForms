@@ -13,7 +13,8 @@
         </Grid.RowDefinitions>
         <Button Grid.Row="0"
                 Content="Stuur data naar andere windows"
-                Click="ButtonOpenWindows_Click" />
+                Click="ButtonOpenWindows_Click"
+                />
         <DataGrid Grid.Row="1"
                   x:Name="MyData" />
     </Grid>
